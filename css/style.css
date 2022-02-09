@@ -1,0 +1,35 @@
+.header {
+    background-color: mistyrose;
+    color: rgb(124, 124, 124);
+}
+
+body {
+    background-color: rgb(163, 195, 255);
+}
+
+.liCarne {
+    background-color: rgb(253, 230, 230);
+}
+
+
+.liFruta {
+    background-color: rgb(247, 255, 235);
+}
+
+.liVerdura {
+    background-color: rgb(253, 230, 230);
+}
+
+.liCandy {
+    background-color: rgb(247, 255, 235);
+}
+
+.submitButton {
+    background-color: rgb(255, 0, 0);
+    align-self: center;
+}
+
+.footer {
+    background-color: rgb(211, 211, 211);
+    text-align: center;
+}

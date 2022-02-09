@@ -7,46 +7,63 @@
     <meta name="description" content="lista de pedidos del super">
     <meta name="robots" content="index,follow">
     <title>Lista de pedido del super</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-
-        </figure>
-      </section>
-        <ul>
-            <li>Carnes</li>
+    <header class="header">
+        <h1>Lista del super</h1>
+    </header>
+    <main>
+        <form action="submit">
+        <ol>
+             <li class="liCarne">
                 <img src="/images/img/carne.jpg" alt="carnes " width="300px">
-                <ol>
-                    <li> <a href="https://www.kiwilimon.com/recetas/carnes-y-aves/res/filetes" target="blank">Filete de res</a> 🥩</li>
-                    <li>Pechuga de pollo 🍗</li>
-                    <li>Chuleta 🍠</li>
+                
+                    <label for="carne">Carne</label>
+                    <select name="carne" id="carne">
+                        <option value="">Pechuga de pollo 🍗</option>
+                        <option value="">Filete de res 🥩</option>
+                        <option value="">Chuleta 🍠</option>
+                    </select>
+            </li>
 
-                </ol>
-            <li>Frutas</li>
+            <li class="liFruta" >
                 <img src="/images/img/fruit.jpg" alt="fruits" width="300px">
-                <ol>
-                    <li><a href="https://www.recetasnestle.com.mx/recetas/postres/manzanas-con-canela" target="blank">Manzanas</a> 🍎</li>
-                    <li>Platano 🍌</li>
-                    <li>Pepino 🥒</li>
-                    <li>Naranaja 🍊</li>
-                </ol>
-            <li>Verduras</li>
+                    <label for="Fruta">Fruta</label>
+                    <select name="carne" id="carne">
+                        <option value="">Platano 🍌</option>
+                        <option value="">Pepino 🥒</option>
+                        <option value="">Naranaja 🍊</option>
+                    </select>
+            </li>
+
+
+            <li class="liVerdura">  
                <img src="/images/gif/evil-laugh-laugh(1).gif" alt="evil laugh" width="300px">
-                <ol>
-                    <li><a href="https://c.tenor.com/S5_kkeBDtpYAAAAC/plankton-evil.gif" target="blank">Nada ñaca ñaca</a>  (●'◡'●)</li>
-                </ol>
-            <li>Dulces</li>
-                <figure>
-                    <img src="/images/img/candy.jpg" alt="candy" width="300px">
-                    <figcaption>Foto de Dulces      Autor: Josfa Ortiz</figcaption>
-                </figure>
-                <ol>
-                    <li><a href="https://www.myfoodandfamily.com/es-US/recipe/183472/escalofriante-gelatina-gusanito" target="blank"> Gomitas de gusano</a> 🐍</li>
-                    <li>Cacahuate 🦦</li>
-                    <li>Pelon pelonete 🍬</li>
-                    <li>Gelatina 🍮</li>
-                </ol>
-        </ul>
-        <section>Creado con amor c: c:</section>
+                <label for="Verduras">Verduras</label>
+                <select name="carne" id="carne">
+                    <option value="">Nada ñaca ñaca (●'◡'●)</option>
+                </select>
+            </li>
+            
+            <li class="liCandy">   
+                <img src="/images/img/candy.jpg" alt="candy" width="300px">
+                <label for="candy">candy</label>
+                <select name="carne" id="carne">
+                    <option value="">Cacahuate 🦦</option>
+                    <option value="">Pelon pelonete 🍬</option>
+                    <option value="">Gelatina 🍮</option>
+                </select>
+            </li>
+            <p class="submitButton" >
+                <label for="submit">Comprar</label>
+                <input type="submit" name="" id="">
+            </p>
+        </form>
+        </ol>
+        <footer class="footer">
+            <section class="se">Creado con amor c: c:</section>
+        </footer>
     </main>
 </body>
 </html>
