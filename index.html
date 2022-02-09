@@ -286,9 +286,39 @@
                 <label for="buscar">
                     <input type="submit" name="confirmar" id="confirmar" value="Buscar" >
                 </label>
+        </form> 
+        <br>
+        <hr>
+    </main>
+    <main>
+        <form action="" autocomplete="on">
+            <label for="nombre1">Nombre</label>
+            <input type="text" name="nombre1" id="nombre1" placeholder="Nombre" autocomplete="name" required>
+            <p>
+                <label for="correo">Correo</label>
+                <input type="email" name="correo" id="correo" placeholder="micorreo@gmail.com" autocomplete="email" required> <br>
+            </p>
+            <p>
+                <label for="pais">Pais</label>
+                <input multiple type="text"  name="pais" id="pais" list="paisLista" placeholder="Pais" autocomplete="country" required>
+                <datalist id="paisLista">
+                    <option value="Mexico">Mexico</option>
+                    <option value="Usa">Usa</option>
+                    <option value="Bolivia">Bolivia</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="Canada">Canada</option>
+                </datalist>
+            </p>
+            <p>
+                <label for="cp">CP</label>
+                <input type="text" name="cp" id="cp" placeholder="CP" autocomplete="postal-code" required> <br>
+            </p>
+            <p>
+                <input type="submit" value="Enviar" name="submit" id="submit">  
+            </p>
         </form>
     </main>
-    
-
 </body>
 </html>
