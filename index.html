@@ -251,6 +251,44 @@
             Ya tienes cuenta? <a href="https://www.eluniversal.com.mx/sites/default/files/2017/11/09/2.jpeg" target="blank">Registrate</a>
         </p>
     </footer>
+    <hr>
+
+    <main>
+        <form action="">
+               
+                <input multiple type="text"  name="origen" id="origen" list="origenLista" placeholder="Origen">
+
+                <datalist id="origenLista">
+                  <option value="Iguala">Iguala</option>
+                  <option value="Gdl">Gdl</option>
+                  <option value="CDMX">CDMX</option>
+                  <option value="Cuernavaca">Cuernavaca</option>
+                  <option value="Toluca">Toluca</option>
+                  <option value="Queretaro">Queretaro</option>
+                  <option value="Durango">Durango</option>
+                </datalist>
+
+                <input multiple type="text"  name="destino" id="destino" list="destinoLista" placeholder="Destino">
+
+                <datalist id="destinoLista">
+                    <option value="Iguala">Iguala</option>
+                    <option value="Gdl">Gdl</option>
+                    <option value="CDMX">CDMX</option>
+                    <option value="Cuernavaca">Cuernavaca</option>
+                    <option value="Toluca">Toluca</option>
+                    <option value="Queretaro">Queretaro</option>
+                    <option value="Durango">Durango</option>
+                </datalist>
+                
+                <label for="destino">
+                    <input multiple type="date"  name="destino" id="destino">
+                </label>
+                <label for="buscar">
+                    <input type="submit" name="confirmar" id="confirmar" value="Buscar" >
+                </label>
+        </form>
+    </main>
+    
 
 </body>
 </html>
