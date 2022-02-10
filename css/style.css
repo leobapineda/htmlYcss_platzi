@@ -1,35 +1,32 @@
-.header {
-    background-color: antiquewhite;
-    font-size: 16px;
+body {
+    background-color: aqua;
 }
 
-.nav-main__ul {
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
+html {
+    color: orange;
+    font-size: 75%; 
+}
+header {
+    width: 100%;
+    height: 500px;
+    background-color: yellow;
 }
 
-.nav-main__item {
-    display: inline-block;
-}
-/* https://www.esthersola.com/subrayado-animado-de-enlaces-con-css/ */
-.nav-main__item a {
-    font-weight: bolder;
-    text-decoration: none;
-    background-image: linear-gradient(currentColor, currentColor);
-    background-position: 0% 100%;
-    background-repeat: no-repeat;
-    background-size: 0% 1px;
-    transition: background-size .3s;
+main {
+    width: 100%;
+    background-color: red;
+    border: 10px solid white;
+    box-sizing: border-box;
 }
 
-/* seudo clase */
-.nav-main__item a:hover, a:focus {
-    background-size: 100% 1px;
+h1 {
+    margin: 0;
+    border: 10px solid green;
+    padding: 20px;
 }
 
-
-/* seudo elemento */
-.nav-main__item a::after {
-    content: ' | ' ;
+p {
+    margin: 0;
+    border: 5px solid blue;
+    padding: 10px;
 }
